@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "1c886a15450c137a5bf8dbd20d9f0281a5636549fdf53e4a15211e7207b4df2f",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.4dem.it/open-api"
+  ],
+  "id": "4demit-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "4Dem.it MCP setup and connection checker",
+  "description": "Generate 4Dem.it MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "4demit",
+  "appName": "4Dem.it",
+  "providerDocs": "https://api.4dem.it/open-api",
+  "providerWebsite": "https://www.4dem.it/",
+  "authentication": {
+    "type": "token_exchange",
+    "requiredCredentialFields": [
+      "provider_exchange_credentials"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developers.4dem.it/article/590-come-creare-una-lista-tramite-api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-4demit-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
