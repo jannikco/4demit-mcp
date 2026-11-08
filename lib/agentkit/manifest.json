@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-4demit",
+      "description": "Connect AI agents to 4Dem.it using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-4demit/SKILL.md": "0560b6e8ee435f9d33c49380c7469cd3da52874b3d17c24e42939ec2cfad6386"
+  }
+}
